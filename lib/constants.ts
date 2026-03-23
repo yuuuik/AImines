@@ -1,0 +1,2 @@
+export const REAL_MONEY_URL = 'https://one-vv7312.life/?open=register&p=ctun';
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mines-prediction.vercel.app/';
