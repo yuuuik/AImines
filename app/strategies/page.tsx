@@ -164,7 +164,9 @@ export default function StrategiesPage() {
             </h1>
             <p className="text-white/50 text-sm leading-relaxed max-w-lg">
               В Mines AI Аналитик знает расположение всех мин и подсвечивает безопасные клетки.
-              Ваша задача — открыть нужное количество клеток и вовремя забрать выигрыш.
+              Ваша задача — открыть нужное количество клеток и вовремя забрать выигрыш. Если вы
+              впервые видите эту игру — начните с{' '}
+              <a href="/guide" className="text-blue-300 underline underline-offset-2">полного гайда по правилам</a>.
             </p>
           </header>
 
