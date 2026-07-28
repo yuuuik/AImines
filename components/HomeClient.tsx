@@ -100,7 +100,7 @@ export default function HomeClient() {
           )}
 
           {/* 1WIN CTA */}
-          <a href={REAL_MONEY_URL} target="_blank" rel="noopener noreferrer" className="shrink-0">
+          <a href={REAL_MONEY_URL} target="_blank" rel="nofollow sponsored noopener noreferrer" className="shrink-0">
             <motion.div
               whileTap={{ scale: 0.95 }}
               className="flex items-center px-3 rounded-xl font-black text-[11px] tracking-wider whitespace-nowrap"

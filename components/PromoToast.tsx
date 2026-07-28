@@ -119,7 +119,7 @@ function ToastCard({ dismiss }: { dismiss: () => void }) {
         <a
           href={REAL_MONEY_URL}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow sponsored noopener noreferrer"
           onClick={dismiss}
           className="block w-full"
         >
