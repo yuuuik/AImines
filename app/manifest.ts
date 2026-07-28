@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'Mines — Игра с AI предсказаниями | 1win',
     short_name: 'Mines',
-    description: 'Демо-игра Mines с AI Аналитиком. Промокод MARCHMINES даёт бонус 500% на 1win.',
+    description: 'Демо-игра Mines с AI Аналитиком. Промокод ADUNLOCK даёт бонус 500% на 1win.',
     start_url: '/',
     display: 'standalone',
     orientation: 'portrait',

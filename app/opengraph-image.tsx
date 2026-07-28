@@ -166,7 +166,7 @@ export default function Image() {
           <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap' }}>
             {[
               { text: '🤖 AI знает где мины', accent: false },
-              { text: '💎 Промокод MARCHMINES', accent: true },
+              { text: '💎 Промокод ADUNLOCK', accent: true },
               { text: '🎯 Бонус 500% на 1win', accent: false },
             ].map(({ text, accent }) => (
               <div

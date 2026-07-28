@@ -103,7 +103,7 @@ const bankrollTips = [
   { Icon: Shield,     title: 'Правило 10%',            text: 'Не ставьте более 10% баланса за один раунд. При 5 000 ₽ — ставка не более 500 ₽.' },
   { Icon: TrendingUp, title: 'Фиксируйте прибыль',     text: 'Заработали ×2 от стартового баланса? Снизьте ставку и зафиксируйте результат.' },
   { Icon: Zap,        title: 'Без погони за потерями',  text: 'Три проигрыша подряд — снизьте ставку вдвое. Серия проигрышей не гарантирует победу.' },
-  { Icon: BookOpen,   title: 'Используйте промокоды',   text: 'Промокод MARCHMINES на 1win даёт бонус до 500% — больше баланса, больше возможностей.' },
+  { Icon: BookOpen,   title: 'Используйте промокоды',   text: 'Промокод ADUNLOCK на 1win даёт бонус до 500% — больше баланса, больше возможностей.' },
 ];
 
 const quickTips = [
@@ -122,7 +122,7 @@ const articleJsonLd = {
     'Консервативная, умеренная и агрессивная стратегии для игры Mines. Как использовать AI подсказки и управлять банкроллом.',
   url: `${SITE_URL}/strategies`,
   inLanguage: 'ru-RU',
-  dateModified: '2026-03-22',
+  dateModified: new Date().toISOString().split('T')[0],
   author: { '@type': 'Organization', name: 'Mines 1win', url: SITE_URL },
   publisher: { '@type': 'Organization', name: 'Mines 1win', url: SITE_URL },
   mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}/strategies` },
@@ -307,7 +307,7 @@ export default function StrategiesPage() {
               <a href={REAL_MONEY_URL} target="_blank" rel="noopener noreferrer" className="w-full">
                 <div className="w-full py-3.5 rounded-2xl font-bold text-sm text-white text-center cursor-pointer"
                   style={{ background: 'linear-gradient(135deg, #15803d 0%, #16a34a 60%, #4ade80 100%)' }}>
-                  Играть на реальные деньги · Промокод MARCHMINES
+                  Играть на реальные деньги · Промокод ADUNLOCK
                 </div>
               </a>
             </div>

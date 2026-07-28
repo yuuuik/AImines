@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     default: 'Mines — демо-игра с AI предсказаниями | 1win',
   },
   description:
-    'Бесплатная демо-игра Mines с AI Аналитиком. AI знает расположение всех мин и подсвечивает безопасные клетки. Промокод MARCHMINES — бонус 500% на первый депозит 1win.',
+    'Бесплатная демо-игра Mines с AI Аналитиком. AI знает расположение всех мин и подсвечивает безопасные клетки. Промокод ADUNLOCK — бонус 500% на первый депозит 1win.',
   keywords: [
     'mines',
     'mines 1win',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: 'Mines 1win',
     title: 'Mines — демо-игра с AI предсказаниями | 1win',
     description:
-      'Бесплатная демо-игра Mines с AI Аналитиком. AI знает расположение всех мин. Промокод MARCHMINES — бонус 500% на 1win.',
+      'Бесплатная демо-игра Mines с AI Аналитиком. AI знает расположение всех мин. Промокод ADUNLOCK — бонус 500% на 1win.',
     images: [
       {
         url: '/opengraph-image',
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Mines — демо-игра с AI предсказаниями | 1win',
     description:
-      'Бесплатная демо-игра Mines с AI Аналитиком. AI знает где мины. Промокод MARCHMINES — бонус 500%.',
+      'Бесплатная демо-игра Mines с AI Аналитиком. AI знает где мины. Промокод ADUNLOCK — бонус 500%.',
     images: ['/opengraph-image'],
   },
   icons: {
@@ -77,7 +77,7 @@ const websiteJsonLd = {
   name: 'Mines 1win',
   url: SITE_URL,
   description:
-    'Бесплатная демо-игра Mines с AI Аналитиком. Промокод MARCHMINES для бонуса 500% на платформе 1win.',
+    'Бесплатная демо-игра Mines с AI Аналитиком. Промокод ADUNLOCK для бонуса 500% на платформе 1win.',
   inLanguage: 'ru-RU',
   potentialAction: {
     '@type': 'SearchAction',

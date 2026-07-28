@@ -5,7 +5,7 @@ import HomeClient from '@/components/HomeClient';
 export const metadata: Metadata = {
   title: 'Mines игра онлайн — демо с AI предсказаниями',
   description:
-    'Играй в Mines онлайн бесплатно в демо-режиме. AI Аналитик подсвечивает безопасные клетки — знает где мины до раунда. Переходи на 1win с промокодом MARCHMINES и получи бонус 500%.',
+    'Играй в Mines онлайн бесплатно в демо-режиме. AI Аналитик подсвечивает безопасные клетки — знает где мины до раунда. Переходи на 1win с промокодом ADUNLOCK и получи бонус 500%.',
   keywords: [
     'mines игра онлайн',
     'mines 1win',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Mines игра онлайн — демо с AI предсказаниями',
     description:
-      'Играй в Mines онлайн бесплатно. AI знает расположение мин и подсвечивает безопасные клетки. Промокод MARCHMINES — бонус 500% на 1win.',
+      'Играй в Mines онлайн бесплатно. AI знает расположение мин и подсвечивает безопасные клетки. Промокод ADUNLOCK — бонус 500% на 1win.',
     url: SITE_URL,
     type: 'website',
     images: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Mines игра онлайн — демо с AI предсказаниями',
-    description: 'Играй в Mines бесплатно. AI знает где мины. Промокод MARCHMINES — бонус 500% на 1win.',
+    description: 'Играй в Mines бесплатно. AI знает где мины. Промокод ADUNLOCK — бонус 500% на 1win.',
     images: ['/opengraph-image'],
   },
 };
@@ -84,9 +84,9 @@ export default function HomePage() {
           и строгом соблюдении сигналов AI.
         </p>
 
-        <h3>Промокод MARCHMINES для 1win</h3>
+        <h3>Промокод ADUNLOCK для 1win</h3>
         <p>
-          Введите промокод MARCHMINES при регистрации на платформе 1win и получите бонус до
+          Введите промокод ADUNLOCK при регистрации на платформе 1win и получите бонус до
           500% на первый депозит. Например, при пополнении на 5 000 ₽ ваш игровой баланс
           составит до 30 000 ₽. Демо-режим позволяет освоить механику и стратегии перед
           игрой на реальные деньги.
